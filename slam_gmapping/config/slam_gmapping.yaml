@@ -3,6 +3,7 @@ slam_gmapping:
     base_frame: "base_link"
     odom_frame: "odom"      
     map_frame:  "map"     
+    tf_buffer_duration: 5.0
     map_update_interval:  5.0 
     
     # Default: autodetect. Set maxUrange and maxRange for manual settings
